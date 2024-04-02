@@ -1,4 +1,4 @@
-from langchain.llms import HuggingFaceHub
+from langchain-community import HuggingFaceHub
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.chains import ConversationChain
 from langchain.prompts.prompt import PromptTemplate
