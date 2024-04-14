@@ -1,4 +1,4 @@
-from langchain.llms import HuggingFaceHub
+from langchain_community.llms import HuggingFaceHub
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.chains import ConversationChain
 from langchain.prompts.prompt import PromptTemplate
@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = HuggingFaceHub(
-    huggingfacehub_api_token = os.getenv("HUGGINGFACE_TOKEN"),
+    huggingfacehub_api_token = "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",
     repo_id="mistralai/Mixtral-8x7B-Instruct-v0.1",
-    model_kwargs={'temperature': 0.1, 'num_return_sequences':10, "return_full_text": False, 'max_length': 200}
+    model_kwargs={'temperature': 0.1, 'num_return_sequences':10, "return_full_text": False, 'max_length': 300}
 )
 
 
