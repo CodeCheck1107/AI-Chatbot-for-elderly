@@ -11,3 +11,4 @@ transformers==4.38.1
 torchvision==0.17.2
 tensorflow==2.15.0
 flax==0.8.2
+audio-recorder-streamlit==0.0.8
