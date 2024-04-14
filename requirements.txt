@@ -12,3 +12,4 @@ torchvision==0.17.2
 tensorflow==2.15.0
 flax==0.8.2
 audio_recorder_streamlit==0.0.8
+ffmpeg-python
